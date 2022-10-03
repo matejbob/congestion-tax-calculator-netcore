@@ -1,0 +1,32 @@
+{
+  "rates": [
+    {
+      "from": "06:00",
+      "to": "12:00",
+      "rate": 1
+    },
+    {
+      "from": "12:00",
+      "to": "23:30",
+      "rate": 2
+    },
+    {
+      "from": "23:30",
+      "to": "00:00",
+      "rate": 3
+    }
+  ],
+  "maximumDailyCharge": 60,
+  "singleChargeWindowMins": 60,
+  "exemptions": {
+    "daysOfWeek": [ "Saturday", "Sunday" ],
+    "monthsOfYear": [ 7 ],
+    "publicHoliday": true,
+    "dayBeforePublicHoliday": false,
+    "vehicleCategories": [ "bus", "motorcycle" ],
+    "emergencyVehicle": true,
+    "diplomatVehicle": true,
+    "militaryVehicle": true,
+    "foreignVehicle": true
+  }
+}
